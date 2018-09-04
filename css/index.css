@@ -1,4 +1,20 @@
 img{
     height: auto;
-    width: 200px;
+    width: 400px;
+}
+
+body{
+    background-color: #b8b8b8;
+}
+
+.blk-border{
+    border: 3px solid black;
+}
+
+hr{
+    border-color: #434343;
+}
+
+ul {
+    list-style: square;
 }
