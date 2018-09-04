@@ -1,0 +1,27 @@
+body{
+    font-family: Futura;
+    background-color: #a5966a;
+
+}
+body>div{
+    background-color: rgba(242, 245, 215, 0.57);
+}
+a:link {
+    color: #0000FF;
+    font-style: normal;
+}
+a:visited {
+    color: #4b4b4b;
+    font-style: normal;
+}
+a:hover {
+    color: #FF0000;
+    font-style: italic;
+}
+ul {
+    list-style: square;
+}
+strong {
+    text-decoration: underline;
+    font-size: large;
+}
