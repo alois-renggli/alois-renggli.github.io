@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery FAQ</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <style>
+        .contra-title{
+            color: white;
+            background-color: rgba(0, 0, 0, 0.22);
+            height: 100px;
+            text-align: right;
+            font-family: "Droid Serif";
+            font-size: 70px;
+            margin: 0 auto;
+        }
+        .title{
+            text-align: center;
+            background-color: grey;
+            border: 2px solid black;
+            padding: 1em;
+            margin-bottom: 1em;
+        }
+        .invisible{
+            display: none;
+        }
+
+        .highlighted {
+            background-color: #FF0;
+            box-sizing: content-box;
+        }
+
+        p{
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        .main{
+            background-color: lightgrey;
+            margin: 3em;
+            border: 5px solid black;
+            padding: 3em;
+        }
+        .picture{
+            background-color: gray;
+            margin: 2em;
+            border: 5px solid black;
+            padding: 1em;
+            float: left;
+            /*height: 200px;*/
+            /*width: 200px;*/
+            /*display: block;*/
+         }
+        
+        dl {
+            margin-bottom: 3em;
+        }
+        /*button{*/
+            /*margin-left: 4em;*/
+        /*}*/
+        dt, h3{
+            margin-top: 2em;
+            margin-bottom: .5em;
+            font-style: italic;
+            font-weight: bold;
+        }
+
+        .blue{
+            color: blue;
+        }
+        .bolded{
+            font-weight: bold;
+        }
+    </style>
+
+</head>
+<body class="main">
+
+<div class="alert alert-warning alert-dismissible" role="alert">
+    <div class="row">
+        <h4 class="col-11">Would you like to sign up for our newsletter?</h4>
+        <button type="button" class="close col-1 font-size-sm" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+    </div>
+
+    <div class="row">
+        <label for="newsletter" class="ml-3">YES, sign me up!</label>
+        <input type="checkbox" id="newsletter" class="ml-2 mt-1" checked>
+    </div>
+
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg border-box " role="document">
+        <div class="modal-content bg-secondary">
+
+            <div class="modal-header pl-0 pr-0">
+                <div class="col"></div>
+                <h2 class="modal-title text-center text-white p-0 col-10" id="myModalLabel">Would you like to register for this site???</h2>
+                <div class="col"></div>
+            </div>
+
+            <div class="modal-body row">
+                <div class="col"></div>
+                <div class="col-10">
+                    <label for="email" class="ml-5 text-white">Enter your email address here:</label>
+                    <input type="email" id="email" size="35">
+                </div>
+                <div class="col"></div>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Sign Up!</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<h1 class="title">10 FAQs about National Parks</h1>
+<button type="button" class="open-list">Expand for Answers to the Questions.</button>
+<dl>
+    <dt><span>1. What is the largest national park site? Smallest?</span></dt>
+    <dd class="invisible">
+        <p>Largest: Wrangell-St. Elias National Park and Preserve, AK, at 13.2 million acres</p>
+        <p>Smallest: Thaddeus Kosciuszko National Memorial, PA, at 0.02 acres</p>
+        <p>Current information on acreage for units across the National Park System is also available.</p>
+    </dd>
+    <dt><span>2. How many people visit the national parks?</span></dt>
+    <dd class="invisible">
+        <p>Total recreation visitors to the national parks in 2017: 330,882,751</p>
+        <p>See more information about visitation.</p></dd>
+    <dt><span>3. What is the most-visited national park?</span></dt>
+    <dd class="invisible"><p>View a list of the most-visited sites in the National Park Service.</p></dd>
+    <dt><span>4. What is the National Park Service budget?</span></dt>
+    <dd class="invisible"><p>Fiscal Year (FY) 2014 Enacted: $2.98 billion</p>
+        <p>FY 2015 Enacted: $2.615 billion</p>
+        <p>FY 2016 Enacted:$2.851 billion</p>
+        <p>FY 2017 Enacted: $2.932 billion</p></dd>
+    <dt><span>5. How do I obtain a park entrance pass?</span></dt>
+    <dd class="invisible"><p>Fewer than one-third of the national parks charge entrance fees.
+        You can obtain park entrance passes by visiting a park site that charges an entrance fee.
+        Entrance fee sites have passes available; we recommend calling a park prior to your visit.
+        (See the park search to locate a specific park.) There are a number of entrance passes available,
+        including park-specific passes as well as passes that offer entrance to more than 2,000 federal
+        recreation sites in addition to the national parks (Annual, Military, Senior, 4th Grade, Access,
+        and Volunteer passes). Learn more about the America the Beautiful - The National Parks and Federal
+        Recreational Lands Pass.</p></dd>
+    <dt><span>6. Where can I find a park map?</span></dt>
+    <dd class="invisible"><p>You can view maps on specific park websites or download maps from the Harpers
+        Ferry Center map collection.</p></dd>
+    <dt><span>7. How do I make reservations for camping/lodging in national parks?</span></dt>
+    <dd class="invisible"><p>For campground reservations, visit Recreation.gov.
+        Not all parks participate in this service; many campgrounds are first come, first served.
+        For more information on specific camping and lodging services offered at the park(s) of your
+        interest, please check specific park websites. You can also learn more about camping in
+        national parks and find a map of parks with camping opportunities.</p></dd>
+    <dt><span>8. How do I reserve a tour in a park?</span></dt>
+    <dd class="invisible"><p>You can book some park tours through Recreation.gov such as WWII Valor in
+        the Pacific (Pearl Harbor), many Mammoth Cave National Park cave tours, Independence National
+        Historical Park tours, and more. Not all parks participate in this reservation service.
+        For more information on tours offered at a specific park, please see the park search.</p></dd>
+    <dt><span>9. Can I bring my pet to a national park?</span></dt>
+    <dd class="invisible"><p>Some national parks welcome pets—in developed areas,
+        on many trails and campgrounds, and in some lodging facilities. Learn more about pets in parks.</p></dd>
+    <dt><span>10. What do I need to know about driving off road in national parks?</span></dt>
+    <dd class="invisible"><p>Before you head out, check with the national parks that you intend to visit.
+        In many national parks, off-road driving is illegal. Where off-road driving is allowed,
+        the National Park Service regulates it.</p></dd>
+</dl>
+
+
+<h2 class="title">National Parks Facts</h2>
+<button type="button" class="highlight-li">Highlight the Last Fact in Each List</button>
+
+<h3>Yellowstone</h3>
+
+<ul>
+    <li><span>HQ Location: 2 Officers Row, Yellowstone National Park Headquarters, Yellowstone National Park, WY 82190</span></li>
+    <li><span>Date Established: March 1, 1872</span></li>
+    <li><span>Top Visited Attraction: Old Faithful Geyser</span></li>
+    <li><span>Annual Entrance Pass Fee: $70.00</span></li>
+
+</ul>
+
+<h3>Sequoia</h3>
+
+<ul>
+    <li><span>HQ Location: 47050 Generals Highway Three Rivers, CA 93271</span></li>
+    <li><span>Date Established: September 25, 1890</span></li>
+    <li><span>Top Visited Attraction: General Sherman Tree (largest tree on earth)</span></li>
+    <li><span>Annual Entrance Pass Fee: $60.00</span></li>
+
+</ul>
+
+<h3>Badlands</h3>
+
+<ul>
+    <li><span>HQ Location: 25216 Ben Reifel Road, Interior, SD 57750</span></li>
+    <li><span>Date Established: November 10, 1978</span></li>
+    <li><span>Top Visited Attraction: The Window Trail</span></li>
+    <li><span>Annual Entrance Pass Fee: $40.00</span></li>
+
+</ul>
+
+
+<div class="row">
+
+    <div class="picture col left-side">
+        <img src="images/General_Sherman_tree.jpg" alt="" class="img-thumbnail w-100 h-100">
+    </div>
+
+
+    <div class="picture col center">
+        <img src="images/Old_faithful_geyser.jpg" alt="" class="img-thumbnail w-100 h-100">
+    </div>
+
+
+    <div class="picture col right-side">
+        <img src="images/Window_Trail.JPG" alt="" class="img-thumbnail w-100 h-100">
+    </div>
+
+</div>
+<div class="row">
+    <button type="button" class="btnsize btnLeft col btn-sm mx-5 btn-secondary">Swap Right</button>
+    <button type="button" class="btnsize btnMiddle col btn-sm mx-5 btn-secondary">Swap Right or Left</button>
+    <button type="button" class="btnsize btnRight col btn-sm mx-5 btn-secondary">Swap Left</button>
+
+</div>
+
+
+
+
+<!-- Exercise #1-->
+<!--In a HTML structure, create a definition list containing 10 FAQs about national parks.-->
+
+<!--Add a class to all dd elements named invisible.-->
+
+<!--Create CSS that sets elements with the invisible class to display: none.-->
+
+<!--Update the page with jQuery to add a link that toggles the class invisible on and off for all dd elements.-->
+
+<!--Bonus-->
+
+<!--When any one dt is clicked, the element that was clicked should be highlighted.-->
+
+
+
+<!--Exercise #2-->
+<!--Open the file named jquery_faq.html for editing. Commit all changes to GitHub.-->
+
+<!--Under the FAQ, add 3 unordered lists like above. Each list should contain a national park name in an h3 element,
+and a ul of 4 facts about the park.-->
+
+<!--Create a button that, when clicked, makes the last li in each ul have a yellow background.-->
+
+<!--When any h3 is clicked, the lis underneath it should be bolded. Use font-weight: bold to achieve this.-->
+
+<!--When any list item is clicked, first li of the parent ul should have a font color of blue.-->
+
+<!--Bonus-->
+<!--Create 3 divs that each look like a picture Frame; each one should have a unique background
+image and a button underneath that swaps the image from the frame. Use Traversing functions of
+jQuery to accomplish this.-->
+
+<!--The rules are the following:-->
+
+<!--The left frame swaps to the right and takes the image from the frame in the center.-->
+<!--The center frame swaps randomly to either the left or right.-->
+<!--The right frame swaps to the left and takes the image from the frame in the center.-->
+
+
+<!--Exercise #3-->
+<!--At the top of the page, add a div with two elements, an h1 that reads
+"Would you like to sign up for our newsletter?" and a span that has an 'x' in it. When the 'x' is clicked,
+ hide the entire div element.-->
+
+<!--The uls next to each h3 that contain facts about each park should start out hidden,
+and when the corresponding h3 is clicked, the display of the ul should be toggled with a sliding effect.-->
+
+<!--After the user has been on the page for 8 seconds, an h2 should fade in
+that asks the user to register for the site.-->
+
+<!--As always, make sure you are adding, commiting and pushing to Github.-->
+
+<!--Bonus-->
+
+<!--Use a bootstrap alert for the dismissable message that shows on page load.-->
+
+<!--Use a bootstrap modal for the message that fades in after 8 seconds. You may find that you can use bootstrap's modal methods to achieve the fading effect.-->
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<!--<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script>
+    "use strict";
+
+    $('.open-list').click(function(){
+        $('dd').toggleClass('invisible');
+    });
+
+    $('span').dblclick(function(){
+        $(this).toggleClass('highlighted');
+    });
+
+    $('.highlight-li').click(function(){
+        $('ul').children().next().next().next().children().toggleClass('highlighted')
+    });
+
+    $('h3').click(function(){
+        $(this).next().children().toggleClass('bolded');
+        $(this).next().slideToggle(700);
+    });
+
+    $('li').click(function(){
+        $(this).parent().children().first().toggleClass('blue')
+    });
+
+    // $('body').children().first().children().next().click(function(){
+    //     $('body').children().first().hide();
+    // });
+
+    $('ul').each(function () {
+        $(this).hide();
+    });
+    // $('#myModal').hide();
+
+    setTimeout(function(){
+        $('#myModal').modal('show');
+    }, 8000);
+
+    // $enable-gradients = true;
+
+
+
+    //Picture Swapping Code
+
+    var sequoia = "images/General_Sherman_tree.jpg";
+    var yellowstone = "images/Old_faithful_geyser.jpg";
+    var badlands = "images/Window_Trail.JPG";
+
+    $(".btnLeft").click(function() {
+        var src1 = $(this).parent().prev().children().first().children().attr('src');
+        var src2 = $(this).parent().prev().children().first().next().children().attr('src');
+        $(this).parent().prev().children().first().children().attr('src', src2);
+        $(this).parent().prev().children().first().next().children().attr('src', src1);
+
+    });
+
+    $(".btnRight").click(function() {
+        var src3 = $(this).parent().prev().children().first().next().next().children().attr('src');
+        var src2 = $(this).parent().prev().children().first().next().children().attr('src');
+        $(this).parent().prev().children().first().next().next().children().attr('src', src2);
+        $(this).parent().prev().children().first().next().children().attr('src', src3);
+
+    });
+
+    $(".btnMiddle").click(function() {
+        var src1 = $(this).parent().prev().children().first().children().attr('src');
+        var src3 = $(this).parent().prev().children().first().next().next().children().attr('src');
+        var src2 = $(this).parent().prev().children().first().next().children().attr('src');
+
+        var myArray = [
+            src1,
+            src3,
+        ];
+
+        var randomItem = myArray[Math.floor(Math.random()*myArray.length)];
+        console.log(randomItem);
+
+        if (randomItem === src1){
+            $(this).parent().prev().children().first().children().attr('src', src2);
+            $(this).parent().prev().children().first().next().children().attr('src', src1);
+        }
+        else if (randomItem === src3){
+            $(this).parent().prev().children().first().next().next().children().attr('src', src2);
+            $(this).parent().prev().children().first().next().children().attr('src', src3);
+        }
+    });
+
+
+
+
+
+
+
+    //Konami Code
+    var keyCodeArray=[];
+    var konamiCode = [ 38, 38, 40, 40, 37, 39, 37,39,66,65,13];
+
+    var timer = 4;
+    $(document).keyup(function(event) {
+        console.log(event.keyCode);
+
+        if (JSON.stringify(keyCodeArray) !== JSON.stringify(konamiCode)){
+            if (keyCodeArray.length < 11){
+                keyCodeArray.push(event.keyCode);
+            }
+            else if (keyCodeArray.length >=11){
+                keyCodeArray.push(event.keyCode);
+                keyCodeArray.shift();
+            }
+        }
+
+        else{
+            $('div').text("You Entered the Konami Code!!!");
+            $('h1').animate({
+                left: '500px',
+                opacity: '0.5',
+                fontSize: '60px',
+                color: 'red',
+            }, 'slow');
+            setTimeout(function(){
+                $('div').text("");
+                $('h1').animate({
+                    left: '500px',
+                    opacity: '0.5',
+                    fontSize: '60px',
+                    color: 'red',
+                });
+
+
+            },3000);
+
+            setTimeout(function(){
+                for(var i = 0; i < timer; i++){
+                    $('h1').addClass("contra-title").fadeIn(1500).fadeOut(1000).fadeIn(1500);
+                    $('body').css('background-color', 'orange').fadeIn(1000).fadeOut(1000).fadeIn(1000);
+                    i++;
+                };
+
+                var snd1 = new Audio("sounds/Contra SFX (25).wav"); // buffers automatically when created
+                var snd2 = new Audio("sounds/Contra Intro.mp3"); // buffers automatically when created
+                var snd3 = new Audio("sounds/Contra - Jungle Theme.mp3"); // buffers automatically when created
+
+                snd1.play();
+                setTimeout(function(){
+                    snd1.pause();
+                    snd1.currentTime = 0;
+                }, 5500);
+                setTimeout(function(){
+                    snd2.play();
+                }, 5500);
+                setTimeout(function(){
+                    snd2.pause();
+                    snd2.currentTime = 0;
+                }, 13000);
+            }, 1500);
+        }
+        console.log(keyCodeArray);
+        return keyCodeArray;
+    });
+    // end of Konami Code
+
+</script>
+
+</body>
+</html>
