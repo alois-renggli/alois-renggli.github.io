@@ -26,11 +26,11 @@
     "date": "August 30, 2018"
   },
   {
-    "title": "The Fourth Post",
-    "content": "This is another test",
+    "title": "Welcome to My Blog!",
+    "content": "Thank you for visiting this site.",
     "categories": [
-      "none"
+      "welcome"
     ],
-    "date": "August 31, 2018"
+    "date": "September 5, 2018"
   }
 ]

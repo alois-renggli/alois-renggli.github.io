@@ -1,11 +1,17 @@
 img{
     height: auto;
-    width: 400px;
+    width: 300px;
 }
 
-body{
+.bg-ltgray{
     background-color: #b8b8b8;
 }
+
+.bg-gray{
+    background-color: #8b8b8b;
+    border: 2px solid black;
+}
+
 
 .blk-border{
     border: 3px solid black;
@@ -17,4 +23,11 @@ hr{
 
 ul {
     list-style: square;
+}
+.linkedin{
+    color: #3276b0;
+}
+
+.git{
+    color: #25292e;
 }
