@@ -160,9 +160,6 @@ $("#contact").click(function(){
         "<p class=\"m-0\">\n" +
         "    Location: San Antonio, TX\n" +
         "</p>\n" +
-        "<p class=\"m-0\">\n" +
-        "    Tel: (315) 679-8929\n" +
-        "</p>\n" +
         "<p class=\"m-0 \">\n" +
         "    Resume: <a href=\"resume.html\" target=\"_blank\">&lt;html&gt;</a> and <a href=\"file/Alois%20M.%20Renggli%20-%20USMA%20'10%20with%20Electrical%20Engineer%20Degree.pdf\" target=\"_blank\">.pdf</a>\n" +
         "</p>\n" +
