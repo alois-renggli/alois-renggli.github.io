@@ -139,7 +139,6 @@ $("#resume").click(function(){
         "    <h4 class=\"text-center\">Resume</h4>\n" +
         "<ul>\n" +
         "<li><a href=\"resume.html\" target=\"_blank\">&lt;html&gt; Version</a></li>\n" +
-        '<li><a href="file/Alois%20M.%20Renggli%20-%20USMA%20\'10%20with%20Electrical%20Engineer%20Degree.pdf" target="_blank">.pdf Version</a></li>' +
     "</ul>\n" +
         "</div>\n" +
         "<div class=\"col\"></div>" +
